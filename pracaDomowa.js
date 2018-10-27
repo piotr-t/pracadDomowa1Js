@@ -107,6 +107,7 @@ for(let z=0;z<arr5.length;z++){
     }
     if(arr5[z]%2!=0){
         tabOdd.push(arr5[z])
+        
     }
 }
 
