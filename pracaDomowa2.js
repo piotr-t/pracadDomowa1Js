@@ -35,7 +35,7 @@ function dayPol() {
         case 4:dayPol='Czwartek'
             break;
         case 5:dayPol='Piątek'
-            break;
+            break; 
         case 6:dayPol='Sobota'
             break;
     }
