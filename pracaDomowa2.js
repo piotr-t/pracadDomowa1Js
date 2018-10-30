@@ -46,6 +46,9 @@ dayPol();
 
 //12) Create a function that tells us how many days till Friday 
 
+function manyDay (){}
+
+
 //13) Create a function that take two numbers and return the object with 4 fields. Result on 4 basic arithmetic operations. 
 //14) Create a function that takes array of objects given below and calls ‘show’ function if one is present on object.
 let objects = [{
