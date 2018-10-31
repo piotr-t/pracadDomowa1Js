@@ -14,6 +14,19 @@ sumAll(ARRAY);
 
 //2) Create a function that returns sum of first and last elements of given array.
 //3) Create a function that takes a number and return factorial of that number.
+function randFaktor() {
+    let RF=Math.floor(Math.random()*10);
+    let rFactoria=1;
+
+        for (let rIndex = 1; rIndex <= RF; rIndex++) {
+            if(RF==0){ rFactoria=1}else{
+            rFactoria=rFactoria*rIndex;}
+            
+        }
+    console.log('losowa liczba to: '+RF+' a jej silnia:  '+rFactoria)
+}
+randFaktor();
+
 //4) Create a function that returns given array in reverse order. // no build in functions  
 function createRev(arr) {
     let ar2=[];
