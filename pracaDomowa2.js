@@ -3,6 +3,15 @@ const ARRAY=[1,6,23,8,4,98,3,7,3,98,4,98, 7, 6, 7, 19, 20,11];
 
 //1) Create a function that returns the sum of all elements passed in array as parameter.
 
+function sumAll(params) {
+    let sumA=0;
+    params.forEach(element => {
+        sumA+=element;
+    });
+    console.log('sum elements is :  '+sumA);
+}
+sumAll(ARRAY);
+
 //2) Create a function that returns sum of first and last elements of given array.
 //3) Create a function that takes a number and return factorial of that number.
 //4) Create a function that returns given array in reverse order. // no build in functions  
